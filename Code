@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text</title>
+    <style>
+        @font-face {
+            font-family: 'Perpetua Titling MT';
+            src: url('path/to/your/PerpetuaTitlingMT.woff2') format('woff2'),
+                 url('path/to/your/PerpetuaTitlingMT.woff') format('woff');
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Perpetua Titling MT', serif;
+        }
+
+        .centered-text {
+            text-align: center;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-text">PARENTS CAPITAL</div>
+</body>
+</html>
